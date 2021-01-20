@@ -1,0 +1,24 @@
+name: ShowName
+version: @version@
+main: com.github.huda0209.showname.ShowName
+api-version: 1.16
+prefix: [ show name ]
+load: STARTUP
+authors: [ huda0209 ]
+description: show server name
+commands:
+  serverName:
+    description: show this server name.
+  sn:
+    description: show this server name.(short version /serverName)
+  showname:
+    description: show name plugin's admnin command.
+permissions:
+    ShowName.serverName:
+      default: true
+    ShowName.showname:
+      default: op
+    ShowName.*:
+      children:
+        ShowName.serverName: true
+        ShowName.showname: true
