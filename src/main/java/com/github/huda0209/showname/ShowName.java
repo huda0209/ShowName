@@ -22,7 +22,7 @@ public final class ShowName extends JavaPlugin implements CommandExecutor {
         getCommand("showname").setExecutor(new showName());
 
         String EnableMsg =
-                "\n=============================\n" +
+                "\n\n=============================\n" +
                 "plugin name : " + pluginName + "\n" +
                 "server name : " + ServerName + "\n" +
                 "=============================\n";
