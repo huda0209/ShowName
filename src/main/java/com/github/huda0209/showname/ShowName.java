@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class ShowName extends JavaPlugin implements CommandExecutor {
 
     static String pluginName = "ShowName";
-    static String ServerName;
+    String ServerName;
 
 
     @Override
