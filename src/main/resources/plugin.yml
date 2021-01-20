@@ -2,7 +2,7 @@ name: ShowName
 version: @version@
 main: com.github.huda0209.showname.ShowName
 api-version: 1.16
-prefix: [ show name ]
+prefix: show name
 load: STARTUP
 authors: [ huda0209 ]
 description: show server name
